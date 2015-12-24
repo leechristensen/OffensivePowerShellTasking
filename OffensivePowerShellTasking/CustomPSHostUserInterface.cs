@@ -6,7 +6,7 @@ using System.Text;
 
 namespace OffensivePowerShellTasking
 {
-    class CustomPSHostUserInterface : PSHostUserInterface
+    public class CustomPSHostUserInterface : PSHostUserInterface
     {
         // Replace StringBuilder with whatever your preferred output method is (e.g. a socket or a named pipe)
         public StringBuilder output { get; set; }

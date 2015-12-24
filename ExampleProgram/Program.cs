@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Management.Automation;
+using OffensivePowerShellTasking;
 using System.Management.Automation.Runspaces;
-using System.Management.Automation.Host;
 
-namespace OffensivePowerShellTasking
+namespace ExampleProgram
 {
     class Program
     {
@@ -32,7 +31,7 @@ namespace OffensivePowerShellTasking
                         Console.WriteLine(task.ID + "\t" + task.GetStatus());
                     }
                 }
-                else if(input == "exit")
+                else if (input == "exit")
                 {
                     try
                     {

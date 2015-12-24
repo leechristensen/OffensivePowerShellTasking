@@ -7,7 +7,7 @@ using System.Text;
 
 namespace OffensivePowerShellTasking
 {
-    class PSTask
+    public class PSTask
     {
         public int ID { get; set; }
         private AppDomain PSAppDomain = null;

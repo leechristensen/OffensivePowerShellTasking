@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace OffensivePowerShellTasking
 {
-    class CustomPSHost : PSHost
+    public class CustomPSHost : PSHost
     {
         private Guid _hostId = Guid.NewGuid();
         public CustomPSHostUserInterface CustomUI { get; set; }

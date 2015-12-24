@@ -7,9 +7,11 @@ using System.Text;
 
 namespace OffensivePowerShellTasking
 {
-    class PSTaskManager
+    public class PSTaskManager
     {
         private List<PSTask> TaskList = new List<PSTask>();
+
+        public PSTaskManager() { }
 
         public int Execute(string ScriptBlock)
         {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OffensivePowerShellTasking
 {
-    class CustomPSRHostRawUserInterface : PSHostRawUserInterface
+    public class CustomPSRHostRawUserInterface : PSHostRawUserInterface
     {
         // Warning: Setting _outputWindowSize too high will cause OutOfMemory execeptions.  I assume this will happen with other properties as well
         private Size _windowSize = new Size { Width = 120, Height = 100 };
